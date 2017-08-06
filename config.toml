@@ -3,10 +3,13 @@ languageCode = "ja"
 title = "dp42.net"
 theme = "hugo-zen"
 author = "Koichi SATO"
-rssuri  = "feed.xml"
 
 [params]
   logo      = "/images/logo.png"
   copyright = "Koichi SATO All rights reserved."
   twitter   = "https://twitter.com/_dp42"
   github    = "https://github.com/dp42/"
+
+[outputFormats]
+[outputFormats.RSS]
+  basename = "feed"
