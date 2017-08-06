@@ -53,3 +53,21 @@ $ cd path/to/bare.git/hooks
 $ vim post-receive
 $ chmod +x post-receive
 ```
+
+#### 設置したスクリプトの中身
+
+ブログの更新だけなのでかなり~~雑に~~シンプルにしている。
+
+```
+#!/bin/sh
+
+cd /path/to/non-bare/
+git --git-dir=.git pull origin master
+hugo
+```
+
+### 実行結果
+Hookを設置した状態でリモートにpushすると、次のようにログでHookの実行結果もわかる。
+
+```
+
