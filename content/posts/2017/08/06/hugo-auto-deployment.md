@@ -1,7 +1,6 @@
 ---
 title: "Git HooksでHugoのデプロイを自動化する"
 date: 2017-08-06T14:01:16+09:00
-draft: true
 ---
 
 [公式ドキュメント](https://gohugo.io/hosting-and-deployment/deployment-with-wercker/)ではWerckerとGitHubを連携させてGitHub Pagesで公開する方法が紹介されている。  
