@@ -1,5 +1,6 @@
 ---
 title: "Initial commit"
+slug: "hello-world"
 date: 2017-08-05T20:37:40+09:00
 ---
 

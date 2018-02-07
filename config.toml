@@ -10,6 +10,9 @@ author = "Koichi SATO"
   twitter   = "https://twitter.com/_dp42"
   github    = "https://github.com/dp42/"
 
+[permalinks]
+   posts = "/posts/:year/:month/:slug/"
+
 [outputFormats]
 [outputFormats.RSS]
   basename = "feed"

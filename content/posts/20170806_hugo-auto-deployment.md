@@ -1,5 +1,6 @@
 ---
 title: "Git HooksでHugoのデプロイを自動化する"
+slug: "hugo-auto-deployment"
 date: 2017-08-06T14:01:16+09:00
 ---
 

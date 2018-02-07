@@ -1,5 +1,6 @@
 ---
 title: "\"Hello, World.\"の次としてのチャットボット"
+slug: "pepabo-advent-calendar"
 date: 2017-12-03T14:00:00+09:00
 draft: false
 ---
