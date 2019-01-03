@@ -1,5 +1,6 @@
 baseURL = "https://dp42.net/"
 languageCode = "ja"
+hasCJKLanguage = "true"
 title = "dp42.net"
 theme = "hugo-zen"
 author = "Koichi SATO"
