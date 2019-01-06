@@ -21,18 +21,18 @@ Git Hooksを使って手順3と4を自動化する。
 #### サーバー側
 まずはpush先となるbareリポジトリを作成する。
 
-```
+```bash
 $ git init --bare path/to/bare.git
 ```
 
 作成したbareリポジトリをcloneしてnon-bareリポジトリを用意する。  
 Hugoのビルドはここでやる。
-```
+```bash
 $ git clone path/to/bare.git non-bare
 ```
 
 ローカルにあるHugoプロジェクトで`git init`して、リモートのbareリポジトリをoriginに登録する。
-```
+```bash
 $ git init
 $ git remote add origin ssh://remote/path/to/bare.git
 ```
@@ -51,7 +51,7 @@ Hookでやりたいことは次の2つ。
 `post-receive`のスクリプトを設置する。  
 実行権限が必要なので`chmod`を忘れずに。
 
-```
+```bash
 $ cd path/to/bare.git/hooks
 $ vim post-receive
 $ chmod +x post-receive
@@ -60,7 +60,7 @@ $ chmod +x post-receive
 スクリプトの中身は下記。  
 ブログの更新だけなので処理はかなり~~雑に~~シンプルにしている。
 
-```
+```bash
 #!/bin/sh
 
 cd /path/to/non-bare/
@@ -71,7 +71,7 @@ hugo
 ### 実行結果
 Hookを設置した状態でリモートにpushするとHookの実行結果もターミナルに出力される。
 
-```
+```bash
 $ git push origin master
 Counting objects: 8, done.
 Delta compression using up to 4 threads.
