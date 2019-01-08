@@ -2,12 +2,11 @@ baseURL = "https://dp42.net/"
 languageCode = "ja"
 hasCJKLanguage = true
 pygmentsCodefences = true
-title = "dp42.net"
-theme = "hugo-zen"
+title = "Life, the Universe, and Technology"
+theme = "final-frontier"
 
 [params]
   author = "Koichi SATO"
-  logo      = "/images/logo.png"
   copyright = "Koichi SATO All rights reserved."
   twitter   = "https://twitter.com/_dp42"
   github    = "https://github.com/dp42/"

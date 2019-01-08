@@ -7,6 +7,3 @@
 [submodule "themes/hugo-zen"]
 	path = themes/hugo-zen
 	url = https://github.com/rakuishi/hugo-zen.git
-[submodule "themes/retro-future"]
-	path = themes/retro-future
-	url = git@github.com:dp42/retro-future.git
