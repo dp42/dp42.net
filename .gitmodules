@@ -9,4 +9,4 @@
 	url = https://github.com/rakuishi/hugo-zen.git
 [submodule "themes/final-frontier"]
 	path = themes/final-frontier
-	url = git@github.com:dp42/final-frontier.git
+	url = https://github.com/dp42/final-frontier.git
