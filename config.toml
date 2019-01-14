@@ -4,6 +4,7 @@ hasCJKLanguage = true
 pygmentsCodefences = true
 title = "Life, the Universe, and Technology"
 theme = "final-frontier"
+googleAnalytics = "UA-132406301-1"
 
 [params]
   author = "Koichi SATO"
