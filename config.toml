@@ -11,6 +11,8 @@ googleAnalytics = "UA-132406301-1"
   copyright = "© 2017-2019 Koichi SATO"
   twitter   = "https://twitter.com/_dp42"
   github    = "https://github.com/dp42/"
+  twitter_id   = "_dp42"
+  github_id    = "dp42"
 
 [permalinks]
    posts = "/posts/:year/:month/:slug/"
