@@ -2,6 +2,7 @@ baseURL = "https://dp42.net/"
 languageCode = "ja"
 hasCJKLanguage = true
 pygmentsCodefences = true
+summaryLength = 200
 title = "Life, the Universe, and Technology"
 theme = "final-frontier"
 googleAnalytics = "UA-132406301-1"
